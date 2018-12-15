@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AF529418AF73854B66E88DCB3B5E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		1B2C4D7D3FA361635FE253523C8F1570 /* Pods-NoteTakingAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BC97E89B7F013E98D00C04F3DE7AB1 /* Pods-NoteTakingAppTests-dummy.m */; };
+		283D5C308A10795D335B99C5B37164BA /* Pods-NoteTakingApp-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E97E6051F574A0D764D9075496BCB1B /* Pods-NoteTakingApp-tvOS-dummy.m */; };
+		399BDA5A1719A4D597138CE3DAB5B7B3 /* Pods-NoteTakingApp-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE26EA9532DA13E7295BD50CB7EA4D6 /* Pods-NoteTakingApp-tvOSTests-dummy.m */; };
+		50F8421D6968C9250E8A93FB0C47D92F /* Pods-NoteTakingApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02833289611D7F7F19C349015396BE30 /* Pods-NoteTakingApp-dummy.m */; };
+		69459D11B8306FD41D2D11639CEB42B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+		D92AB14BD2D63C358158986198C884D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */; };
+		DD7A9C3ACFD2B33C4DB8B8A5409371C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02833289611D7F7F19C349015396BE30 /* Pods-NoteTakingApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoteTakingApp-dummy.m"; sourceTree = "<group>"; };
+		0852691504B35DA94FE10FC3769160CB /* Pods-NoteTakingApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoteTakingApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B056CCE3E1B5775A3F499711848D748 /* Pods-NoteTakingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11F44D5AB4742ADBA6377617AA1B9F4D /* libPods-NoteTakingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NoteTakingApp.a"; path = "libPods-NoteTakingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DE43D105123BAB3F1E6DB23E5B1821 /* Pods-NoteTakingApp-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingApp-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		160C3D478DFAC61C37C345FE8C3B0A11 /* Pods-NoteTakingApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1794C7F867B9DB715C7F21D7A2A81623 /* Pods-NoteTakingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingApp.release.xcconfig"; sourceTree = "<group>"; };
+		1CE26EA9532DA13E7295BD50CB7EA4D6 /* Pods-NoteTakingApp-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoteTakingApp-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		1FF8CBE3D70C3B5EE02BF7F1402952A2 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		2835954E8F5C190ED375576353D80CDA /* Pods-NoteTakingApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoteTakingApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E0CD5CF0E4646F482BA17BA54FAA2C6 /* Pods-NoteTakingApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingApp-resources.sh"; sourceTree = "<group>"; };
+		2E280B58529AEBA76B5F11C0705D0856 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		35B43F8597A687B714642F4FF09429B9 /* Pods-NoteTakingApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		40B775D4D68242103674C549542518F0 /* Pods-NoteTakingApp-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoteTakingApp-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E97E6051F574A0D764D9075496BCB1B /* Pods-NoteTakingApp-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoteTakingApp-tvOS-dummy.m"; sourceTree = "<group>"; };
+		50107F31212E064A9D887C74E261D560 /* Pods-NoteTakingApp-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoteTakingApp-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		54E63725443DC2F54B10C95656FED57D /* libPods-NoteTakingApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NoteTakingApp-tvOSTests.a"; path = "libPods-NoteTakingApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A58C13E91080E89F7D5B633412ADA0F /* Pods-NoteTakingApp-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoteTakingApp-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FA86BE635C4EA424575155A6BB46955 /* Pods-NoteTakingApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingApp-frameworks.sh"; sourceTree = "<group>"; };
+		697057EB6F6A315777E7EA941A2AAF3B /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		71B75CDB5E5994978E02CF2708BA64A7 /* Pods-NoteTakingApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84E6AEADA633287EFD2AD391483C891D /* Pods-NoteTakingAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingAppTests-resources.sh"; sourceTree = "<group>"; };
+		85A8CB23DB974EF6D6AC3B7696FD5D55 /* Pods-NoteTakingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		895EC6BA5333432C3C7FAFA80B1D22C1 /* Pods-NoteTakingApp-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingApp-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95BC97E89B7F013E98D00C04F3DE7AB1 /* Pods-NoteTakingAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoteTakingAppTests-dummy.m"; sourceTree = "<group>"; };
+		A1A6634C6DA23D6C8A5736125D34AD9E /* Pods-NoteTakingAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		AF3ACBA1ECE67C3C4E9EE428038CBB95 /* libPods-NoteTakingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NoteTakingAppTests.a"; path = "libPods-NoteTakingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21197F6B5695769EEF73B184C67DE1F /* Pods-NoteTakingApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B3F194E9D33E4B8DA62BF93D2680D188 /* Pods-NoteTakingApp-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingApp-tvOS-resources.sh"; sourceTree = "<group>"; };
+		C0A6F7536E46E59ECE0D781F09AB3777 /* Pods-NoteTakingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoteTakingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C642BC5A3F74156E7A7487D5176F4CC7 /* Pods-NoteTakingApp-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoteTakingApp-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB5CD6849745035D280181E7D547E41 /* Pods-NoteTakingAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoteTakingAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC0304AD65A31F982C3AE8551FA6AC63 /* Pods-NoteTakingAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoteTakingAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC3822C861D355AA668C6721A3C0A214 /* Pods-NoteTakingApp-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoteTakingApp-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		DC65AFFB7964130E42157D207BE3A6DE /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		F1A231A126E8A4F020B5F43E1F06455C /* libPods-NoteTakingApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NoteTakingApp-tvOS.a"; path = "libPods-NoteTakingApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1359CBF4D7118B1D93F2087FC4C372D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A9C3ACFD2B33C4DB8B8A5409371C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BB5A239409FC4CA62EDC907E4F0F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AF529418AF73854B66E88DCB3B5E75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0212254D0F546BA1AD80539222D384E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69459D11B8306FD41D2D11639CEB42B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F4324DC9B48988C5F925C3C0EC67D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92AB14BD2D63C358158986198C884D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A6552C22CBBB87E887F93CEE0432A5 /* Pods-NoteTakingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB5CD6849745035D280181E7D547E41 /* Pods-NoteTakingAppTests-acknowledgements.markdown */,
+				CC0304AD65A31F982C3AE8551FA6AC63 /* Pods-NoteTakingAppTests-acknowledgements.plist */,
+				95BC97E89B7F013E98D00C04F3DE7AB1 /* Pods-NoteTakingAppTests-dummy.m */,
+				A1A6634C6DA23D6C8A5736125D34AD9E /* Pods-NoteTakingAppTests-frameworks.sh */,
+				84E6AEADA633287EFD2AD391483C891D /* Pods-NoteTakingAppTests-resources.sh */,
+				0B056CCE3E1B5775A3F499711848D748 /* Pods-NoteTakingAppTests.debug.xcconfig */,
+				C0A6F7536E46E59ECE0D781F09AB3777 /* Pods-NoteTakingAppTests.release.xcconfig */,
+			);
+			name = "Pods-NoteTakingAppTests";
+			path = "Target Support Files/Pods-NoteTakingAppTests";
+			sourceTree = "<group>";
+		};
+		0C0416FA3744ECAB6C76E95960896084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC65AFFB7964130E42157D207BE3A6DE /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1039A8E2868DA183CC3831B73804EABE /* Pods-NoteTakingApp-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				C642BC5A3F74156E7A7487D5176F4CC7 /* Pods-NoteTakingApp-tvOS-acknowledgements.markdown */,
+				50107F31212E064A9D887C74E261D560 /* Pods-NoteTakingApp-tvOS-acknowledgements.plist */,
+				4E97E6051F574A0D764D9075496BCB1B /* Pods-NoteTakingApp-tvOS-dummy.m */,
+				12DE43D105123BAB3F1E6DB23E5B1821 /* Pods-NoteTakingApp-tvOS-frameworks.sh */,
+				B3F194E9D33E4B8DA62BF93D2680D188 /* Pods-NoteTakingApp-tvOS-resources.sh */,
+				B21197F6B5695769EEF73B184C67DE1F /* Pods-NoteTakingApp-tvOS.debug.xcconfig */,
+				35B43F8597A687B714642F4FF09429B9 /* Pods-NoteTakingApp-tvOS.release.xcconfig */,
+			);
+			name = "Pods-NoteTakingApp-tvOS";
+			path = "Target Support Files/Pods-NoteTakingApp-tvOS";
+			sourceTree = "<group>";
+		};
+		20F731AE46C73F232AF0C168DC383CF9 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				572DBE63D5360AB71E5F80F979738FD0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		2299AF501E253B95F2AE1FAD00A3B182 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				4789B2888C9F3A64D9BB98A64504484B /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		260E672E181DB8BDAC7A2999772A7AE4 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C96EA6162ABA11EBE8E8817909062 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		2D20FC01AE47C04E62202F456C8DC21D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0C0416FA3744ECAB6C76E95960896084 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3DD421FD25C71F157283002B72BAA78A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				500EF97E1AD6C0619E2EF01EDBC5D131 /* Pods-NoteTakingApp */,
+				1039A8E2868DA183CC3831B73804EABE /* Pods-NoteTakingApp-tvOS */,
+				F80C6E125D620E6A475B8097D35B1389 /* Pods-NoteTakingApp-tvOSTests */,
+				03A6552C22CBBB87E887F93CEE0432A5 /* Pods-NoteTakingAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4789B2888C9F3A64D9BB98A64504484B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF8CBE3D70C3B5EE02BF7F1402952A2 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		500EF97E1AD6C0619E2EF01EDBC5D131 /* Pods-NoteTakingApp */ = {
+			isa = PBXGroup;
+			children = (
+				0852691504B35DA94FE10FC3769160CB /* Pods-NoteTakingApp-acknowledgements.markdown */,
+				2835954E8F5C190ED375576353D80CDA /* Pods-NoteTakingApp-acknowledgements.plist */,
+				02833289611D7F7F19C349015396BE30 /* Pods-NoteTakingApp-dummy.m */,
+				5FA86BE635C4EA424575155A6BB46955 /* Pods-NoteTakingApp-frameworks.sh */,
+				2E0CD5CF0E4646F482BA17BA54FAA2C6 /* Pods-NoteTakingApp-resources.sh */,
+				85A8CB23DB974EF6D6AC3B7696FD5D55 /* Pods-NoteTakingApp.debug.xcconfig */,
+				1794C7F867B9DB715C7F21D7A2A81623 /* Pods-NoteTakingApp.release.xcconfig */,
+			);
+			name = "Pods-NoteTakingApp";
+			path = "Target Support Files/Pods-NoteTakingApp";
+			sourceTree = "<group>";
+		};
+		58996781A54EE964D7111D73083A18A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D154F4805B9715F0E6D79B0363CE280 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A42F72DC1D780481325DD00969B19BB6 /* Frameworks */,
+				B1C0FD4C526B54B6F7B5EA76C32A7B4C /* Pods */,
+				982272E0C1AC747B348DE9826606F995 /* Products */,
+				3DD421FD25C71F157283002B72BAA78A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2C96EA6162ABA11EBE8E8817909062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				697057EB6F6A315777E7EA941A2AAF3B /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		982272E0C1AC747B348DE9826606F995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F44D5AB4742ADBA6377617AA1B9F4D /* libPods-NoteTakingApp.a */,
+				F1A231A126E8A4F020B5F43E1F06455C /* libPods-NoteTakingApp-tvOS.a */,
+				54E63725443DC2F54B10C95656FED57D /* libPods-NoteTakingApp-tvOSTests.a */,
+				AF3ACBA1ECE67C3C4E9EE428038CBB95 /* libPods-NoteTakingAppTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42F72DC1D780481325DD00969B19BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58996781A54EE964D7111D73083A18A5 /* iOS */,
+				20F731AE46C73F232AF0C168DC383CF9 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C0FD4C526B54B6F7B5EA76C32A7B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F4E16E170AFF42D929EF8FFF92078F /* AppCenter */,
+				FDE42022E7C36FE2A980950DD051F732 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F4E16E170AFF42D929EF8FFF92078F /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				260E672E181DB8BDAC7A2999772A7AE4 /* Analytics */,
+				2D20FC01AE47C04E62202F456C8DC21D /* Core */,
+				2299AF501E253B95F2AE1FAD00A3B182 /* Crashes */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		F80C6E125D620E6A475B8097D35B1389 /* Pods-NoteTakingApp-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				40B775D4D68242103674C549542518F0 /* Pods-NoteTakingApp-tvOSTests-acknowledgements.markdown */,
+				5A58C13E91080E89F7D5B633412ADA0F /* Pods-NoteTakingApp-tvOSTests-acknowledgements.plist */,
+				1CE26EA9532DA13E7295BD50CB7EA4D6 /* Pods-NoteTakingApp-tvOSTests-dummy.m */,
+				895EC6BA5333432C3C7FAFA80B1D22C1 /* Pods-NoteTakingApp-tvOSTests-frameworks.sh */,
+				DC3822C861D355AA668C6721A3C0A214 /* Pods-NoteTakingApp-tvOSTests-resources.sh */,
+				71B75CDB5E5994978E02CF2708BA64A7 /* Pods-NoteTakingApp-tvOSTests.debug.xcconfig */,
+				160C3D478DFAC61C37C345FE8C3B0A11 /* Pods-NoteTakingApp-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-NoteTakingApp-tvOSTests";
+			path = "Target Support Files/Pods-NoteTakingApp-tvOSTests";
+			sourceTree = "<group>";
+		};
+		F84ACEF4E4D3666C3A595115D01D3868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E280B58529AEBA76B5F11C0705D0856 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE42022E7C36FE2A980950DD051F732 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				F84ACEF4E4D3666C3A595115D01D3868 /* Frameworks */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12468A655810C9C931F8E9BA75D72E54 /* Pods-NoteTakingApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3534FF0B37B365A26EFD3670DC4B1EB6 /* Build configuration list for PBXNativeTarget "Pods-NoteTakingApp-tvOS" */;
+			buildPhases = (
+				21777DB6CF845AE8804ABF372E315352 /* Sources */,
+				1359CBF4D7118B1D93F2087FC4C372D4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NoteTakingApp-tvOS";
+			productName = "Pods-NoteTakingApp-tvOS";
+			productReference = F1A231A126E8A4F020B5F43E1F06455C /* libPods-NoteTakingApp-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		179C1CF3A439C3920CC3E72B949A2534 /* Pods-NoteTakingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57BD73F416052EF9697F7B1F332AABD /* Build configuration list for PBXNativeTarget "Pods-NoteTakingAppTests" */;
+			buildPhases = (
+				6D1EE4D723C8F6E9BA0B61984132BAA0 /* Sources */,
+				80BB5A239409FC4CA62EDC907E4F0F6E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NoteTakingAppTests";
+			productName = "Pods-NoteTakingAppTests";
+			productReference = AF3ACBA1ECE67C3C4E9EE428038CBB95 /* libPods-NoteTakingAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57116A066019DA5811D72D2C033919F5 /* Pods-NoteTakingApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117BA6CE6E7AFEC688EB3DC0027F8C13 /* Build configuration list for PBXNativeTarget "Pods-NoteTakingApp-tvOSTests" */;
+			buildPhases = (
+				A93403140BF6FC2E3E423AF6002EFD41 /* Sources */,
+				C0212254D0F546BA1AD80539222D384E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NoteTakingApp-tvOSTests";
+			productName = "Pods-NoteTakingApp-tvOSTests";
+			productReference = 54E63725443DC2F54B10C95656FED57D /* libPods-NoteTakingApp-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D9AFE562DAFB8EDDE8BCCCAB317420C /* Pods-NoteTakingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2F5B2649BCB26C694F9EBF133A5FC1 /* Build configuration list for PBXNativeTarget "Pods-NoteTakingApp" */;
+			buildPhases = (
+				1660DCE4A3FFEEC41BA9915E74013B21 /* Sources */,
+				F7F4324DC9B48988C5F925C3C0EC67D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NoteTakingApp";
+			productName = "Pods-NoteTakingApp";
+			productReference = 11F44D5AB4742ADBA6377617AA1B9F4D /* libPods-NoteTakingApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 982272E0C1AC747B348DE9826606F995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D9AFE562DAFB8EDDE8BCCCAB317420C /* Pods-NoteTakingApp */,
+				12468A655810C9C931F8E9BA75D72E54 /* Pods-NoteTakingApp-tvOS */,
+				57116A066019DA5811D72D2C033919F5 /* Pods-NoteTakingApp-tvOSTests */,
+				179C1CF3A439C3920CC3E72B949A2534 /* Pods-NoteTakingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1660DCE4A3FFEEC41BA9915E74013B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F8421D6968C9250E8A93FB0C47D92F /* Pods-NoteTakingApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21777DB6CF845AE8804ABF372E315352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283D5C308A10795D335B99C5B37164BA /* Pods-NoteTakingApp-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1EE4D723C8F6E9BA0B61984132BAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2C4D7D3FA361635FE253523C8F1570 /* Pods-NoteTakingAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93403140BF6FC2E3E423AF6002EFD41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399BDA5A1719A4D597138CE3DAB5B7B3 /* Pods-NoteTakingApp-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		068D548EE90BCAFDF852040355CAA324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21197F6B5695769EEF73B184C67DE1F /* Pods-NoteTakingApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		12EC319154A00D25BF67EC67C62DDCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2F6935D43DD3F8696513BE5A5BD5E7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		3927F9C96F91D19912E1829741CCFC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160C3D478DFAC61C37C345FE8C3B0A11 /* Pods-NoteTakingApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F02D333F1877123236F6E95DAF026A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A8CB23DB974EF6D6AC3B7696FD5D55 /* Pods-NoteTakingApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F15A7850882F71F4AB36430A56D1202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B75CDB5E5994978E02CF2708BA64A7 /* Pods-NoteTakingApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		7C909FCF7E4484A05E5A0D2D9E460D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1794C7F867B9DB715C7F21D7A2A81623 /* Pods-NoteTakingApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9950A77B2FFE3559942DF28209CE836E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B43F8597A687B714642F4FF09429B9 /* Pods-NoteTakingApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D095D780356BB7799FE27F51A477B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B056CCE3E1B5775A3F499711848D748 /* Pods-NoteTakingAppTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69FF812D91256CCD9BFBADB7FCC8B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A6F7536E46E59ECE0D781F09AB3777 /* Pods-NoteTakingAppTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		117BA6CE6E7AFEC688EB3DC0027F8C13 /* Build configuration list for PBXNativeTarget "Pods-NoteTakingApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F15A7850882F71F4AB36430A56D1202 /* Debug */,
+				3927F9C96F91D19912E1829741CCFC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F6935D43DD3F8696513BE5A5BD5E7AF /* Debug */,
+				12EC319154A00D25BF67EC67C62DDCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3534FF0B37B365A26EFD3670DC4B1EB6 /* Build configuration list for PBXNativeTarget "Pods-NoteTakingApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068D548EE90BCAFDF852040355CAA324 /* Debug */,
+				9950A77B2FFE3559942DF28209CE836E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57BD73F416052EF9697F7B1F332AABD /* Build configuration list for PBXNativeTarget "Pods-NoteTakingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D095D780356BB7799FE27F51A477B4 /* Debug */,
+				F69FF812D91256CCD9BFBADB7FCC8B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2F5B2649BCB26C694F9EBF133A5FC1 /* Build configuration list for PBXNativeTarget "Pods-NoteTakingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02D333F1877123236F6E95DAF026A2 /* Debug */,
+				7C909FCF7E4484A05E5A0D2D9E460D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
